@@ -29,8 +29,7 @@ class _QuizPageState extends State<QuizPage> {
         Uri.parse('https://openrouter.ai/api/v1/chat/completions'),
         headers: {
           'Content-Type': 'application/json',
-          // Note: keep your own key handling as you prefer.
-          'Authorization': 'Bearer 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',
+          'Authorization': 'Bearer api key',
         },
         body: jsonEncode({
           "model": "gpt-3.5-turbo",
