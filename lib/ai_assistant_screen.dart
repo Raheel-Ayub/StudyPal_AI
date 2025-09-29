@@ -28,7 +28,7 @@ class _AIAssistantScreenState extends State<AIAssistantScreen> {
   int _replyingToMessageId = -1; // Track which message we're replying to after edit
 
   // Your API key hardcoded
-  final String _apiKey = "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";
+  final String _apiKey = "api key";
 
   // Drawer items (same as homepage)
   final List<Map<String, dynamic>> _drawerItems = [
