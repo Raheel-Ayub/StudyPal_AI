@@ -35,7 +35,7 @@ class _FormulaScreenState extends State<FormulaScreen> {
         Uri.parse('https://openrouter.ai/api/v1/chat/completions'),
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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',
+          'Authorization': 'Bearer api key',
         },
         body: jsonEncode({
           "model": "openai/gpt-3.5-turbo",
