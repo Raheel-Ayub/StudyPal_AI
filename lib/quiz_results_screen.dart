@@ -24,7 +24,7 @@ class _QuizResultScreenState extends State<QuizResultScreen> {
     {'title': 'Home', 'icon': Icons.home_filled, 'screen': HomeScreen()},
     {'title': 'Saved Notes', 'icon': Icons.bookmark_added_rounded, 'screen': SavedNotesScreen()},
     {'title': 'MCQs History', 'icon': Icons.history_edu_rounded, 'screen': MCQsHistoryScreen()},
-    {'title': 'Quiz Results', 'icon': Icons.analytics_rounded, 'screen': null},
+    {'title': 'Quiz Results', 'icon': Icons.analytics_rounded, 'screen': QuizResultScreen()},
     {'title': 'Flashcards', 'icon': Icons.flash_on_rounded, 'screen': FlashcardsScreen()},
     {'title': 'Image to PDF', 'icon': Icons.picture_as_pdf_rounded, 'screen': ImageToPdfScreen()},
     {'title': 'Settings', 'icon': Icons.settings_rounded, 'screen': SettingsScreen()},
